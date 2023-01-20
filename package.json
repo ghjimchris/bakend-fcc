@@ -6,6 +6,7 @@
   "license": "MIT",
   "version": "1.0.0",
 	"dependencies": {
+		"package-name": "@freecodecamp/example",
 		"express": "^4.14.0"
 	},
 	"main": "server.js",
