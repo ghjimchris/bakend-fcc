@@ -1,39 +1,11 @@
-let express = require('express');
+let express = require("express");
 let app = express();
 
+// app.get("/", (req, res) => {
+//   res.send("Hello Exdress");
+// });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- module.exports = app;
+app.get("/", (req, res) => {
+  res.sendFile(__dirname + "/views/index.html");
+});
+module.exports = app;
